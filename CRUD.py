@@ -8,12 +8,11 @@ print("CREATE = CT\n"
       "ALTER TABLE (ADD COLUMN ou RENAME TO) = ALTB\n"
       "SAIR = 0")
 while True:
-    msg = input("Bem vindo ao sistema de bando de dados!\n"
-                "O que deseja fazer?").lower()
+    messenger = input("Bem vindo ao sistema de bando de dados!\nO que deseja fazer? ").lower()
 
     conn = sqlite3.connect('prova.db')
     cursor = conn.cursor()
-    if msg == "ct":
+    if messenger == "ct":
         cursor.execute("""
         CREATE TABLE usuarios (
                 id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -23,7 +22,7 @@ while True:
         """)
         print("Tabela criada com sucesso")
 
-    if msg == "ist":
+    if messenger == "ist":
         nome = input('Digite o NOME do usuario: ')
         idade = int(input('Digite a IDADE agora: '))
         email = input('Por ultimo o EMAIL: ')
@@ -33,57 +32,81 @@ while True:
         """)
         conn.commit()
         print("dados inseridos com sucesso")
+        conn.close()
 
-    elif msg == "rd":
-        oq = input("O que deseja ler?")
-        todos_ou_nao = input("Quer os dados de todos? ")
-        if oq == 'tudo' or '*' and todos_ou_nao == 'sim' or 's':
-            cursor = conn.cursor()
-            for u in cursor.execute(f"SELECT * FROM usuarios;"):
-                print(u)
+    elif messenger == "rd":
+        ler = input("O que deseja ler? ").strip().lower()
+        todos_ou_nao = input(f"De todos os usuarios? ").strip().lower()
 
-        elif oq == 'tudo' or '*' and todos_ou_nao == 'nao' or 'n':
-            quem = int(input("ID do usuario: "))
+        if ler == 'nome' and todos_ou_nao == 'sim' or todos_ou_nao == 's':
             cursor = conn.cursor()
-            cursor.execute(f"SELECT * FROM usuarios WHERE id={quem};")
+            [print(u) for u in cursor.execute(f"SELECT nome FROM usuarios;")]
+
+        elif ler == 'nome' and todos_ou_nao == 'nao' or todos_ou_nao == 'n':
+            pessoa = int(input("Digite o ID do usuario: "))
+            cursor = conn.cursor()
+            cursor.execute(f"SELECT nome FROM usuarios WHERE id={pessoa};")
+
+        elif ler == 'idade' and todos_ou_nao == 'sim' or todos_ou_nao == 's':
+            cursor = conn.cursor()
+            [print(u) for u in cursor.execute(f"SELECT idade FROM usuarios;")]
+
+        elif ler == 'idade' and todos_ou_nao == 'nao' or todos_ou_nao == 'n':
+            pessoa = int(input("Digite o ID do usuario: "))
+            cursor = conn.cursor()
+            cursor.execute(f"SELECT idade FROM usuarios WHERE id={pessoa};")
+
+        elif ler == 'email' and todos_ou_nao == 'sim' or todos_ou_nao == 's':
+            cursor = conn.cursor()
+            [print(u) for u in cursor.execute(f"SELECT email FROM usuarios;")]
+
+        elif ler == 'email' and todos_ou_nao == 'nao' or todos_ou_nao == 'n':
+            pessoa = int(input("Digite o ID do usuario: "))
+            cursor = conn.cursor()
+            cursor.execute(f"SELECT email FROM usuarios WHERE id={pessoa};")
         res = cursor.fetchall()
         print(res)
 
-    elif msg == "upd":
-        oq = input("O que deseja atualizar? ").lower()
+    elif messenger == "upd":
+        ler = input("O que deseja atualizar? ").lower()
         quem = int(input('ID do usuario: '))
-        if oq == 'nome':
+        if ler == 'nome':
             name = input("Qual nome deseja colocar?")
             cursor = conn.cursor()
-            cursor.execute(f"UPDATE usuarios(nome) SET '{name}',' WHERE id={quem};")
+            cursor.execute(f"UPDATE usuarios SET nome = '{name}' WHERE id={quem};")
             conn.commit()
             print("Atualizado com sucesso")
+            conn.close()
 
-        elif oq == 'idade':
+        elif ler == 'idade':
             year_old = input("Que idade deseja colocar?")
             cursor = conn.cursor()
-            cursor.execute(f"UPDATE usuarios(idade) SET '{year_old}',' WHERE id={quem};")
+            cursor.execute(f"UPDATE usuarios SET idade = '{year_old}' WHERE id={quem};")
             conn.commit()
             print("Atualizado com sucesso")
+            conn.close()
 
-        elif oq == 'email':
+        elif ler == 'email':
             eml = input("Qual Email deseja colocar?")
             cursor = conn.cursor()
             cursor.execute(f"UPDATE usuarios SET email = '{eml}' WHERE id={quem};")
             conn.commit()
             print("Atualizado com sucesso")
+            conn.close()
 
         else:
             print('Comando não reconhecido')
+            conn.close()
 
-    elif msg == "dlt":
+    elif messenger == "dlt":
         delete = int(input('qual id do usuario a ser deletado?'))
         cursor = conn.cursor()
         cursor.execute(f"DELETE FROM usuarios WHERE id = {delete}")
         conn.commit()
         print(f"Usuario de ID {delete} deletado com sucesso")
+        conn.close()
 
-    elif msg == 'altb':
+    elif messenger == 'altb':
         mudanca = input("Qual a mudança? ex: RENAME TO ").lower()
         if mudanca == 'add column':
             novo = input("nome da coluna: ")
@@ -91,6 +114,7 @@ while True:
             cursor = conn.cursor()
             cursor.execute(f"ALTER TABLE usuarios {mudanca} {novo} {esp};")
             print("Adicionado com sucesso")
+            conn.close()
 
         elif mudanca == 'rename to':
             qual = input("Qual a coluna que deseja mudar o nome? ")
@@ -98,11 +122,9 @@ while True:
             cursor = conn.cursor()
             cursor.execute(f"ALTER TABLE usuarios RENAME COLUMN {qual} TO {novo};")
             print("Alterado com sucesso")
+            conn.close()
 
-    elif msg == '0':
+    elif messenger == '0':
         break
-
-    else:
-        print("Comando não reconhecido")
 
 conn.close()
