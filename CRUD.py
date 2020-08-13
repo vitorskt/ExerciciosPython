@@ -102,4 +102,7 @@ while True:
     elif msg == '0':
         break
 
+    else:
+        print("Comando não reconhecido")
+
 conn.close()
