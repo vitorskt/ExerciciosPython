@@ -76,7 +76,6 @@ while True:
             cursor.execute(f"UPDATE usuarios SET nome = '{name}' WHERE id={quem};")
             conn.commit()
             print("Atualizado com sucesso")
-            conn.close()
 
         elif ler == 'idade':
             year_old = input("Que idade deseja colocar?")
@@ -84,7 +83,6 @@ while True:
             cursor.execute(f"UPDATE usuarios SET idade = '{year_old}' WHERE id={quem};")
             conn.commit()
             print("Atualizado com sucesso")
-            conn.close()
 
         elif ler == 'email':
             eml = input("Qual Email deseja colocar?")
@@ -92,11 +90,9 @@ while True:
             cursor.execute(f"UPDATE usuarios SET email = '{eml}' WHERE id={quem};")
             conn.commit()
             print("Atualizado com sucesso")
-            conn.close()
 
         else:
             print('Comando não reconhecido')
-            conn.close()
 
     elif messenger == "dlt":
         delete = int(input('qual id do usuario a ser deletado?'))
@@ -104,7 +100,6 @@ while True:
         cursor.execute(f"DELETE FROM usuarios WHERE id = {delete}")
         conn.commit()
         print(f"Usuario de ID {delete} deletado com sucesso")
-        conn.close()
 
     elif messenger == 'altb':
         mudanca = input("Qual a mudança? ex: RENAME TO ").lower()
@@ -114,7 +109,6 @@ while True:
             cursor = conn.cursor()
             cursor.execute(f"ALTER TABLE usuarios {mudanca} {novo} {esp};")
             print("Adicionado com sucesso")
-            conn.close()
 
         elif mudanca == 'rename to':
             qual = input("Qual a coluna que deseja mudar o nome? ")
@@ -122,7 +116,6 @@ while True:
             cursor = conn.cursor()
             cursor.execute(f"ALTER TABLE usuarios RENAME COLUMN {qual} TO {novo};")
             print("Alterado com sucesso")
-            conn.close()
 
     elif messenger == '0':
         break
