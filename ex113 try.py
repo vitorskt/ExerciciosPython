@@ -1,5 +1,5 @@
-import urllib
 import urllib.request
+from urllib.error import URLError
 
 try:
     site = urllib.request.urlopen('https://www.facebook.com')

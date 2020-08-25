@@ -11,9 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c88a8f6-cab8-4166-8d76-c1ba6f169c7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uri 1113.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri 1114.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex113 try.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex113 try.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogo da forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogo da forca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pular linhas com funções.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabuada 2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/tabuada 2.0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +44,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/emailbackend" />
   </component>
-  <component name="RunManager" selected="Python.uri 1114">
-    <configuration name="uri 1095" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.peso ideal">
+    <configuration name="jogo da forca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,7 +59,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uri 1095.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jogo da forca.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -65,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uri 1099" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="peso ideal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uri 1099.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/peso ideal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uri 1101" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="populaçao pais" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uri 1101.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/populaçao pais.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uri 1113" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tabuada 2.0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uri 1113.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tabuada 2.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uri 1114" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="webscrapping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,7 +143,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uri 1114.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webscrapping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.uri 1114" />
-        <item itemvalue="Python.uri 1113" />
-        <item itemvalue="Python.uri 1101" />
-        <item itemvalue="Python.uri 1099" />
-        <item itemvalue="Python.uri 1095" />
+        <item itemvalue="Python.peso ideal" />
+        <item itemvalue="Python.populaçao pais" />
+        <item itemvalue="Python.tabuada 2.0" />
+        <item itemvalue="Python.webscrapping" />
+        <item itemvalue="Python.jogo da forca" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +172,9 @@
       <updated>1597173956186</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -186,30 +192,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="426" y="108" key="#Inspections" timestamp="1597318903568">
+    <state x="426" y="108" key="#Inspections" timestamp="1597699611063">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="426" y="108" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1597318903568" />
+    <state x="426" y="108" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1597699611063" />
     <state x="556" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597319513695">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="556" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1597319513695" />
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1597510840652">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1597844424775">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1597510840652" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1597510840651">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1597844424775" />
+    <state width="1579" height="623" key="GridCell.Tab.0.bottom" timestamp="1598377927610">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1597510840651" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1597510840650">
+    <state width="1579" height="623" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1598377927610" />
+    <state width="1579" height="623" key="GridCell.Tab.0.center" timestamp="1598377927609">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1597510840650" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1597510840651">
+    <state width="1579" height="623" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1598377927609" />
+    <state width="1579" height="623" key="GridCell.Tab.0.left" timestamp="1598377927608">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1597510840651" />
+    <state width="1579" height="623" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1598377927608" />
+    <state width="1579" height="623" key="GridCell.Tab.0.right" timestamp="1598377927609">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="623" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1598377927609" />
     <state x="92" y="92" width="1416" height="676" key="dock-window-1" timestamp="1597316428578">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

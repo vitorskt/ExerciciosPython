@@ -8,7 +8,7 @@ print("CREATE = CT\n"
       "ALTER TABLE (ADD COLUMN ou RENAME TO) = ALTB\n"
       "SAIR = 0")
 while True:
-    messenger = input("Bem vindo ao sistema de bando de dados!\nO que deseja fazer? ").lower()
+    messenger = input("Bem vindo ao sistema de banco de dados!\nO que deseja fazer? ").lower()
 
     conn = sqlite3.connect('prova.db')
     cursor = conn.cursor()

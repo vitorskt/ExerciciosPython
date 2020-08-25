@@ -82,7 +82,7 @@ def main():
             letras_acertadas += palpite  # minhas letras certas terao que incrementar 1 + o palpite
  
             if verifica_se_ganhou(palavra_secreta, letras_acertadas):  # aqui a gente verifica se o jogo foi vencido
-                print("Parabens! A palavra secreta e "+palavra_secreta+'! Voce ganhou!!')
+                print("Parabens! A palavra secreta é "+palavra_secreta+'! Voce ganhou!!')
                 jogando = False
         else:
             letras_erradas += palpite
@@ -91,11 +91,11 @@ def main():
                 imprime_jogo(letras_erradas, letras_acertadas, palavra_secreta)  # se sim vai ser imprimido o jogo
  
                 print("Voce exagerou o seu limite de palpites!")
-                print("Depois de "+str(len(letras_erradas))+' letras erradas e'+str(len(letras_acertadas)), end=' ')
+                print("Depois de "+str(len(letras_erradas))+' letras erradas e '+str(len(letras_acertadas)), end=' ')
                 print('palpites corretos, a palavra era '+palavra_secreta+'.')
  
                 jogando = False
- 
+
         if not jogando:  # verifica se jogando e falso
             if jogar_novamente():
                 letras_erradas = ''  # reinicio as letra erradas
@@ -168,7 +168,6 @@ def jogar_novamente():
     a resposta
     """
     return input("Voce quer jogar novamente? (sim ou nao)\n").upper().startswith('S')
-    # se a resposta do usuario convertido em maiusculo for verdadeiro
 
 
 def verifica_se_ganhou(palavra_secreta, letras_acertadas):
@@ -177,12 +176,12 @@ def verifica_se_ganhou(palavra_secreta, letras_acertadas):
     letras da palavra secreta """
     
     ganhou = True
-    for letra in palavra_secreta:  # percorrrese cada uma das letras da palavra secreta
-        if letra not in letras_acertadas:  # se a letra nao esta nas letras acertadas
-            ganhou = False  # o meu ganhou passa a ser falso
-            break  # o for loop e parado
+    for letra in palavra_secreta:
+        if letra not in letras_acertadas:
+            ganhou = False
+            break
  
-    return ganhou  # retorna o que ganhou
+    return ganhou
 
 
 main()
