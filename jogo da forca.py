@@ -58,7 +58,7 @@ forcaing = ['''
       |
 =========''']
 
-palavras = 'formiga babuino encefalo elefante girafa hamburger chocolate giroscopio'.split()
+palavras = 'formiga babuino encefalo elefante girafa hamburger chocolate giroscopio programador'.split()
 
 
 def main():
@@ -73,7 +73,7 @@ def main():
     palavra_secreta = gera_palavra_aleatoria().upper()
     jogando = True
  
-    while jogando:  # enquanrto o usuario estiver jogando ou seja enquanto jogando for true
+    while jogando:  # enquanto o usuario estiver jogando ou seja enquanto jogando for true
         imprime_jogo(letras_erradas, letras_acertadas, palavra_secreta)  # chama a funcao imprime jogo
  
         palpite = recebe_palpite(letras_erradas + letras_acertadas)

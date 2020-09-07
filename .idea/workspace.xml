@@ -11,8 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c88a8f6-cab8-4166-8d76-c1ba6f169c7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/altura e idade reversa lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/altura e idade reversa lista.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprovado,final,reprovado.py" beforeDir="false" afterPath="$PROJECT_DIR$/aprovado,final,reprovado.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo def.py" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo def.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo do loop FOR.py" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo do loop FOR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo do loop WHILE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio  dict 3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio dict 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio dict 4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio dict2.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio dict2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio string.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folha de pagamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/folha de pagamento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogo da forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogo da forca.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +52,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/emailbackend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.hc">
-    <configuration name="hc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.hill climbing">
+    <configuration name="exercicio  dict 3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercicio  dict 3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="exercicio dict 4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ia.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercicio dict 4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="peso ideal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="exercicio string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/peso ideal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercicio string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="populaçao pais" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="folha de pagamento" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/populaçao pais.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/folha de pagamento.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tabuada 2.0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hill climbing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scripts Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tabuada 2.0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hill climbing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hc" />
-        <item itemvalue="Python.ia" />
-        <item itemvalue="Python.peso ideal" />
-        <item itemvalue="Python.populaçao pais" />
-        <item itemvalue="Python.tabuada 2.0" />
+        <item itemvalue="Python.hill climbing" />
+        <item itemvalue="Python.folha de pagamento" />
+        <item itemvalue="Python.exercicio  dict 3" />
+        <item itemvalue="Python.exercicio string" />
+        <item itemvalue="Python.exercicio dict 4" />
       </list>
     </recent_temporary>
   </component>
@@ -188,10 +200,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="426" y="108" key="#Inspections" timestamp="1597699611063">
+    <state x="426" y="108" key="#Inspections" timestamp="1599513523277">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="426" y="108" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1597699611063" />
+    <state x="426" y="108" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1599513523277" />
     <state x="556" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597319513695">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -200,22 +212,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1597844424775" />
-    <state width="1579" height="212" key="GridCell.Tab.0.bottom" timestamp="1598381666339">
+    <state width="1579" height="302" key="GridCell.Tab.0.bottom" timestamp="1599513707924">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="212" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1598381666339" />
-    <state width="1579" height="212" key="GridCell.Tab.0.center" timestamp="1598381666338">
+    <state width="1579" height="302" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599513707924" />
+    <state width="1579" height="302" key="GridCell.Tab.0.center" timestamp="1599513707924">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="212" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1598381666338" />
-    <state width="1579" height="212" key="GridCell.Tab.0.left" timestamp="1598381666338">
+    <state width="1579" height="302" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599513707924" />
+    <state width="1579" height="302" key="GridCell.Tab.0.left" timestamp="1599513707924">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="212" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1598381666338" />
-    <state width="1579" height="212" key="GridCell.Tab.0.right" timestamp="1598381666338">
+    <state width="1579" height="302" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599513707924" />
+    <state width="1579" height="302" key="GridCell.Tab.0.right" timestamp="1599513707924">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="212" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1598381666338" />
+    <state width="1579" height="302" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599513707924" />
+    <state width="1579" height="276" key="GridCell.Tab.1.bottom" timestamp="1599511846200">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599511846200" />
+    <state width="1579" height="276" key="GridCell.Tab.1.center" timestamp="1599511846199">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1599511846199" />
+    <state width="1579" height="276" key="GridCell.Tab.1.left" timestamp="1599511846199">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1599511846199" />
+    <state width="1579" height="276" key="GridCell.Tab.1.right" timestamp="1599511846200">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1599511846200" />
     <state x="92" y="92" width="1416" height="676" key="dock-window-1" timestamp="1597316428578">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

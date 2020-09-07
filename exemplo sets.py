@@ -10,8 +10,8 @@ B.add(3)
 B.add(5)
 B.add(6)
 
-print(A | B)#Ou A.union(B) 'união de A com B'
-print(A.difference(B))#Ou A - B 'diferença de A pra B'
-print(A.intersection(B))#Ou A & B 'Elementos que tem A e B
-(B.update(A))#Atualiza o conjunto B com o conjunto A
+print(A | B)  # Ou A.union(B) 'união de A com B'
+print(A.difference(B))  # Ou A - B 'diferença de A pra B'
+print(A.intersection(B))  # Ou A & B 'Elementos que tem A e B
+(B.update(A))  # Atualiza o conjunto B com o conjunto A
 print(B)

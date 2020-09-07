@@ -11,4 +11,3 @@ elif resultado >= 5.0:
     print('Você está na final, lembre-se de estudar!!')
 else:
     print('Você está reprovado!')
-    
